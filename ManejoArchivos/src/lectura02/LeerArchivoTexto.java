@@ -22,6 +22,8 @@ public class LeerArchivoTexto {
             while (entrada.hasNext()) {
                 String linea = entrada.nextLine();
                 List<String> lista = Arrays.asList(linea.split("\\|"));
+                // El doble \\ se lo usa cuando le método de separación o split
+                // será diferente de "," y ";" por ejemplo el "|" se lo usa así
                 ArrayList<String> linea_partes = new ArrayList<>(lista);
                 
                 
