@@ -22,6 +22,7 @@ public class PruebaCrearArchivoTexto {
                     nombre,
                     apellido, edad);
         }
+        
         CrearArchivoTexto.agregarRegistros(cadenaFinal);
 
     } // fin de main
